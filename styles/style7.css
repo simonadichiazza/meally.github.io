@@ -1,0 +1,113 @@
+body {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.ingredientsframe {
+  width: 300px;
+  height: 680px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.directionsframe {
+  position: relative;
+  width: 600px;
+  height: 510px;
+}
+
+.recipeframe {
+  height: 100%;
+  width: 100%;
+}
+
+#time {
+  position: absolute;
+  top: 76px;
+  left: 16vw;
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+h3 {
+  position: absolute;
+  padding-top: 10vh;
+  font-size: 30px;
+}
+
+.p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+hr {
+  border: 1px solid black;
+  width: 200px;
+  margin-top: 18vh;
+  position: absolute;
+}
+
+p {
+  line-height: 2.5;
+  font-size: 18px;
+  position: absolute;
+  padding-top: 76vh;
+  text-align: center;
+}
+
+.paragraph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+ul {
+  line-height: 3;
+  font-size: 22px;
+  position: absolute;
+  padding-top: 84vh;
+  text-align: inherit;
+}
+
+@media only screen and (max-width: 910px) {
+  .images {
+    display: inline;
+  }
+  .ingredientsframe {
+    width: 95%;
+    height: 50%;
+    margin: auto;
+    overflow: scroll;
+  }
+  .directionsframe {
+    width: 95%;
+    height: 95%;
+    margin: auto;
+    overflow: scroll;
+  }
+  ul {
+    line-height: 3.5;
+    padding-top: 109vh;
+  }
+  #time {
+    left: 27vw;
+  }
+  p {
+    top: 16vh;
+    line-height: 2.5;
+    padding-top: 0;
+    margin-top: 0;
+  }
+}

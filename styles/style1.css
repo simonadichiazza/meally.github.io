@@ -1,0 +1,285 @@
+body {
+  background-image: url(../images/\ background-n.png);
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    background-size: 680px 960px;
+
+    /* min-height: 100vh; */
+  }
+}
+
+h4 {
+  padding-top: 6px;
+  margin: 0;
+  font-size: 18px;
+}
+
+.container {
+  padding-top: 190px;
+  padding-bottom: 5;
+}
+
+#logo {
+  /* position: absolute; */
+  display: flex;
+  justify-content: center;
+  height: 11vh;
+  padding-bottom: 1vh;
+}
+
+@media screen and (max-width: 375px) {
+  #logo {
+    height: 70px;
+  }
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+#list {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  font-size: 16px;
+}
+
+.line {
+  border: 0.1% solid black;
+  width: 370px;
+}
+
+@media screen and (max-width: 375px) {
+  .line {
+    width: 213px;
+  }
+}
+
+.list1 {
+  line-height: 2vh;
+}
+
+.list2 {
+  line-height: 2vh;
+}
+
+.list3 {
+  line-height: 2vh;
+}
+
+.list4 {
+  line-height: 2vh;
+}
+
+.list5 {
+  line-height: 2vh;
+}
+
+#mainbutton {
+  border: solid black 1px;
+  background-color: #dcb4b8;
+  border-radius: 3px;
+  font-family: "Handlee";
+  width: 160px;
+  height: 32px;
+  text-decoration: none;
+  font-size: 12px;
+  cursor: pointer;
+  box-shadow: 0 3px #999;
+}
+
+#mainbutton:hover {
+  background-color: #c09b9b;
+}
+
+#mainbutton:active {
+  background-color: #dcb4b8;
+  box-shadow: 0 2px #666;
+  transform: translateY(4px);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  padding-top: 1vh;
+}
+
+.button1 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-left: 21.5%;
+}
+
+.btn {
+  align-items: center;
+  border: solid black 1px;
+  font-family: "Handlee";
+  text-decoration: none;
+  font-size: 12px;
+  background-color: #e9d5d7;
+  border-radius: 3px;
+  width: 60px;
+  height: 20px;
+}
+
+.backgroundimage2 {
+  background-image: url(../images/shopping-list-2.png);
+  background-size: 700px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  width: 300px;
+  height: 300px;
+}
+
+.popup {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: none;
+  position: absolute;
+  top: 0;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.daylist {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+@media screen and (max-width: 375px) {
+  #list {
+    width: 60%;
+  }
+}
+
+.bg-popContainer {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5vh;
+}
+
+#crossButton {
+  color: black;
+  position: absolute;
+  top: 70px;
+  left: 340px;
+  border: 2px solid black;
+  font-weight: bold;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  font-size: 25px;
+  text-align: center;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 375px) {
+  #crossButton {
+    left: 300px;
+  }
+}
+
+.mainbutton:hover {
+  background-color: #c09b9b;
+}
+
+#crossButton:active {
+  background-color: #dcb4b8;
+  box-shadow: 0 2px #666;
+  transform: translateY(4px);
+}
+
+.pop-box {
+  width: 400px;
+  height: 700px;
+  background-color: transparent;
+  background-image: url(../images/Untitled_Artwork\ 19.png);
+  background-size: 400px 700px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  position: relative;
+  flex-direction: column;
+  padding-top: 8vh;
+}
+
+@media screen and (max-width: 375px) {
+  .pop-box {
+    width: 350px;
+  }
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0;
+}
+ul {
+  padding: 0;
+}
+
+#ingredients {
+  display: flex;
+  justify-content: center;
+  /* height: 50%; */
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 3vw;
+  line-height: 4vh;
+}
+
+#shoppinglisttitle {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 6px;
+  font-size: 25px;
+}
+
+#box {
+  display: flex;
+  flex-direction: column;
+  background-position-y: center;
+  overflow: scroll;
+  height: 450px;
+  width: 380px;
+}
+
+hr {
+  border: 1px solid black;
+  width: 200px;
+  margin-top: 0;
+}
+
+p {
+  margin-bottom: 14px;
+}

@@ -1,0 +1,22 @@
+body {
+  font-family: "Handlee", cursive;
+  background-color: #e9d5d7;
+  background-size: 890px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  min-height: 100vh;
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    background-size: 680px 920px;
+
+    /* min-height: 100vh; */
+  }
+}

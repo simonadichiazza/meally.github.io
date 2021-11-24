@@ -1,0 +1,211 @@
+body {
+  background-image: url(../images/\ background-n.png);
+  margin: 0;
+  
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    background-size: 600px 900px;
+  }
+}
+
+.container {
+  padding-top: 190px;
+}
+
+#logo {
+  /* position: absolute; */
+  display: flex;
+  justify-content: center;
+  height: 11vh;
+  padding-bottom: 2vh;
+}
+
+@media screen and (max-width: 375px) {
+  #logoedit {
+    height: 70px;
+  }
+}
+
+.checkbox {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.list {
+  display: flex;
+  /* position: absolute; */
+  flex-direction: column;
+  /* margin-left: 63vh; */
+  /* margin-top: -74vh; */
+  justify-content: center;
+  align-items: flex-start;
+  letter-spacing: 0.06em;
+}
+
+
+.list1 {
+  display: flex;
+  flex-direction: row;
+  line-height: 23px;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+}
+
+.list2 {
+  display: flex;
+  flex-direction: row;
+  line-height: 23px;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+}
+
+.list3 {
+  display: flex;
+  flex-direction: row;
+  line-height: 23px;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+}
+
+.list4 {
+  display: flex;
+  flex-direction: row;
+  line-height: 23px;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  align-content: flex-start;
+}
+
+.check {
+  width: 40px;
+  height: 40px;
+}
+
+#chooseyourdiet {
+  letter-spacing: 0.07em;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 3.5vh;
+  background-color: transparent;
+  padding-top: 5vh;
+}
+
+#choosediet {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+}
+
+hr {
+  border: 0.1% solid black;
+  width: 350px;
+}
+
+@media screen and (max-width: 375px) {
+  hr {
+    width: 250px;
+  }
+}
+
+#dietselectors {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  /* padding-left: 38vw;
+  margin-top: -47vh; */
+  align-items: center;
+  letter-spacing: 0.07em;
+
+  width: 350px;
+  margin: auto;
+}
+
+@media screen and (max-width: 375px) {
+  #dietselectors {
+    width: 271px;
+  }
+}
+
+.editing {
+  display: flex;
+  justify-content: center;
+  letter-spacing: 0.07em;
+}
+
+.icon {
+  border: transparent;
+  background-color: transparent;
+  font-family: "Handlee";
+  font-size: 15px;
+  padding-top: 1vh;
+  cursor: pointer;
+}
+
+#icon1 {
+  padding-right: 0;
+}
+
+#icon3 {
+  padding-left: 0;
+}
+
+.active {
+  border: 1px solid black;
+}
+
+.imgedit {
+  border: none;
+  width: 50px;
+  height: 50px;
+}
+
+.mainbutton {
+  border: solid black 1px;
+  background-color: #dcb4b8;
+  border-radius: 3px;
+  font-family: "Handlee";
+  width: 119px;
+  height: 31px;
+  text-decoration: none;
+  font-size: 11.5px;
+  box-shadow: 0 3px #999;
+}
+
+.mainbutton:hover {
+  background-color: #c09b9b;
+}
+
+.mainbutton:active {
+  background-color: #dcb4b8;
+  box-shadow: 0 2px #666;
+  transform: translateY(4px);
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  padding-top: 3vh;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.button1 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 375px) {
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta
+      name="description"
+      content="Student-friendly meal plan with a list of groceries to buy!"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>meal.ly</title>
+    <link href="styles/style.css" rel="stylesheet" />
+    <link href="./styles/basic.css" rel="stylesheet" />
+    <link
+      rel="shortcut icon"
+      href="./images/fork-and-knife-icon-png-23.jpg.png"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Handlee&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+
+    <div class = "container">
+                <div id="logo">
+                  <img id="logoedit" src="./images/meal.ly logo.png" />
+                </div>
+             <div class="checkbox">
+                <div class="list">
+                <div class="list1">
+                  <img class="check" class="listedit" src="./images/checkbox.png" />
+                  <p class="listedit">Personalized meal plans for students</p>
+                </div>
+                <div class="list2">
+                  <img class="check" class="listedit" src="./images/checkbox.png" />
+                  <p class="listedit">Related shopping list</p>
+                </div>
+                <div class="list3">
+                  <img class="check" class="listedit" src="./images/checkbox.png" />
+                  <p class="listedit">Save time and money</p>
+                </div>
+                <div class="list4">
+                  <img class="check" class="listedit" src="./images/checkbox.png" />
+                  <p class="listedit">Reduce food waste</p>
+                </div>
+              </div>
+              </div>
+              <section id="choosediet">
+                <p id="chooseyourdiet">CHOOSE YOUR DIET</p>
+              </section>
+              <hr>
+              <div id="dietselectors">
+                <div id="icon1" onclick="addActiveClass(1)">
+                  <button class="icon">
+                    <img
+                      class="imgedit"
+                      src="./images/anything-2.svg"
+                      width="60"
+                      height="60"
+                    />
+                    <figcaption class="editing">Anything</figcaption>
+                  </button>
+                </div>
+                <div id="icon2" onclick="addActiveClass(2)">
+                  <button class="icon">
+                    <img
+                      class="imgedit"
+                      src="./images/vegetarian-2.svg"
+                      width="60"
+                      height="60"
+                    />
+                    <figcaption class="editing">Vegetarian</figcaption>
+                  </button class="icon">
+                </div>
+                <div id="icon3" onclick="addActiveClass(3)">
+                  <button class="icon">
+                    <img class="imgedit" src="./images/vegan-2.svg" width="60" height="60" />
+                    <figcaption class="editing">Vegan</figcaption>
+                  </button>
+                </div>
+              </div>
+              <div class="button">
+                <button class="mainbutton" onclick="moveToSecondPage()">GET MEAL PLAN</button>
+              </div>
+    </div>
+  </body>
+  <script src="./scripts/script.js"></script>
+</html>
